@@ -2,3 +2,68 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-size: 16px;
+}
+h1 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+.my_name {
+    text-align: center;
+}
+.stage1_requirments {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 5%;
+}
+.flex_container {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 800px){
+    .flex_container {
+        /* border: 1px solid yellow; */
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+#profile_picture {
+    /* display: none; */
+    width: 30%;
+    /* border: 1px solid red; */
+}
+.container2 {
+    /* border: 1px solid blue; */
+    align-self: center;
+    margin-left: 1rem;
+}
+@media (max-width: 800px){
+    .container2 {
+        margin: 0 auto;
+        /* border: 1px solid brown; */
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    #profile_picture {
+        margin: 0 auto;
+        min-width: 4.5rem;
+    }
+}
+.container2 div {
+    margin-bottom: 1rem;
+}
+img {width: 100%;}
+.url_link{
+    text-align: center;
+}
