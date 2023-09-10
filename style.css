@@ -22,32 +22,25 @@ h3 {
     padding: 5%;
 }
 .flex_container {
-    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
 }
 @media (max-width: 800px){
     .flex_container {
-        /* border: 1px solid yellow; */
         display: flex;
         flex-direction: column;
-
     }
 }
 #profile_picture {
-    /* display: none; */
     width: 30%;
-    /* border: 1px solid red; */
 }
 .container2 {
-    /* border: 1px solid blue; */
     align-self: center;
     margin-left: 1rem;
 }
 @media (max-width: 800px){
     .container2 {
         margin: 0 auto;
-        /* border: 1px solid brown; */
     }
     h1 {
         font-size: 1.5rem;

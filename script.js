@@ -20,7 +20,7 @@ dayOfWeekDisplay.textContent += currentDayOfWeek;
 
 
 // TO GET CURRENT UTC TIME
-const currentUTCDate = new Date().toUTCString();
+const currentUTCDate = new Date().getTime()
 
 const utcTimeDisplay = document.getElementById('UTC_time');
 
